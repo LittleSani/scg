@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# VS Code settings
+.vscode/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+frontend/node_modules/
+
+# Next.js build output
+frontend/.next/
+
+# Tailwind cache
+frontend/.tailwind-cache/
+
+# TypeScript build output
+frontend/dist/
+
+# IDE settings
+.idea/
+
+# Backup files
+*.bak
+
+# Weights and model files
+backend/*.pt
+backend/*.weights
+
+# Misc
+*.sqlite3
+*.db
